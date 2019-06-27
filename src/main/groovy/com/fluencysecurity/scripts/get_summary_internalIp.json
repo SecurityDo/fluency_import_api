@@ -1,0 +1,106 @@
+{
+    "indexes" : [ {
+      "alertCount" : 2,
+      "alerts" : [ {
+        "classification" : "A Network Trojan was Detected",
+        "incidents" : [ "CryptoWall" ],
+        "msg" : "ET TROJAN CryptoWall Check-in",
+        "sid" : "2018452"
+      }, {
+        "classification" : "A Network Trojan was Detected",
+        "msg" : "ET POLICY Possible IP Check ip-addr.es",
+        "sid" : "2020105"
+      } ],
+      "countries" : [ {
+        "f" : 14,
+        "key" : "RU"
+      }, {
+        "f" : 4,
+        "key" : "US"
+      }, {
+        "f" : 4,
+        "key" : "RO"
+      }, {
+        "f" : 1,
+        "key" : "FR"
+      } ],
+      "dCountryCount" : 4,
+      "dur" : 187720,
+      "fanIn" : 0,
+      "fanOut" : 5,
+      "fanOutList" : [ {
+        "f" : 14,
+        "key" : "192.168.122.2"
+      }, {
+        "f" : 14,
+        "incidents" : [ "CryptoWall" ],
+        "key" : "80.78.251.161"
+      }, {
+        "f" : 4,
+        "incidents" : [ "CryptoWall" ],
+        "key" : "46.108.156.190"
+      }, {
+        "f" : 4,
+        "key" : "97.74.215.85"
+      }, {
+        "f" : 1,
+        "key" : "188.165.164.184"
+      } ],
+      "fileCount" : 2,
+      "files" : [ {
+        "file_type" : "binary",
+        "md5" : "aa128a96be546876e8ac9532ef5e3e78",
+        "positives" : 0,
+        "size" : 187343
+      }, {
+        "file_type" : "swf",
+        "md5" : "b4f9bc9bdd2e7aa3c408a958ff5c4e2d",
+        "positives" : 3,
+        "size" : 80091
+      } ],
+      "filters" : [ ],
+      "flowCount" : 37,
+      "hostOut" : 5,
+      "hostResolve" : 0,
+      "hosts" : [ {
+        "f" : 7,
+        "key" : "ayh2m57ruxjtwyd5.bcdthepaywayall.com"
+      }, {
+        "f" : 7,
+        "key" : "ayh2m57ruxjtwyd5.abctopayforwin.com"
+      }, {
+        "f" : 4,
+        "key" : "drsrusso.com"
+      }, {
+        "f" : 3,
+        "key" : "xrmfwlwt.deltasig.xyz"
+      }, {
+        "f" : 1,
+        "key" : "ip-addr.es"
+      } ],
+      "id" : 1,
+      "index" : "default_20150912_s",
+      "ip" : "192.168.122.231",
+      "private" : true,
+      "rxB" : 402500,
+      "sipPort" : 3,
+      "sipPortFail" : 1,
+      "sipPortFailList" : [ {
+        "f" : 7,
+        "id" : 53
+      } ],
+      "sipPortList" : [ {
+        "f" : 19,
+        "id" : 80
+      }, {
+        "f" : 7,
+        "id" : 53
+      }, {
+        "f" : 4,
+        "id" : 5909
+      } ],
+      "start_ms" : 1.442026133698E12,
+      "totalB" : 443147,
+      "txB" : 40647
+    } ]
+}
